@@ -32,7 +32,7 @@ This Terraform project automates the deployment of a complete web server on Micr
 - 🔒 Secure handling of workspace keys (marked sensitive)
 
   ## 🧭 Architecture
-- ** WebServer Deployment:
+-  WebServer Deployment:
 ```mermaid
 graph LR
     A[Resource Group] --> B[Virtual Network]
@@ -44,7 +44,7 @@ graph LR
     C --> E
     F --> H[Web Server]
 ```
-- ** Automated Patching Deployment:
+-  Automated Patching Deployment:
 
 ```mermaid
 graph TD
